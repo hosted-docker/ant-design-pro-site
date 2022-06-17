@@ -149,4 +149,9 @@ export default {
     use: ['style-loader', 'css-loader', 'postcss-loader'],
   },
   menus,
+  base: '/mirror/ant-design-pro',
+  publicPath: '/',
+  exportStatic: {
+    dynamicRoot: true,
+  }
 };
