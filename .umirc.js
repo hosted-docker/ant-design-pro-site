@@ -150,7 +150,7 @@ export default {
   },
   menus,
   base: '/mirror/ant-design-pro',
-  publicPath: '/',
+  publicPath: '/mirror/ant-design-pro/',
   exportStatic: {
     dynamicRoot: true,
   }
